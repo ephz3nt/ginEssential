@@ -3,7 +3,7 @@ package common
 import (
 	"fmt"
 
-	"ephz3nt.com/ginessential/model"
+	"github.com/ephz3nt/ginEssential/model"
 	"github.com/jinzhu/gorm"
 )
 

@@ -4,9 +4,9 @@ import (
 	"log"
 	"net/http"
 
-	"ephz3nt.com/ginessential/common"
-	"ephz3nt.com/ginessential/model"
-	"ephz3nt.com/ginessential/util"
+	common "github.com/ephz3nt/ginEssential/common"
+	model "github.com/ephz3nt/ginEssential/model"
+	util "github.com/ephz3nt/ginEssential/util"
 	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/gorm"
 )

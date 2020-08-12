@@ -1,7 +1,7 @@
 package main
 
 import (
-	"ephz3nt.com/ginessential/controller"
+	"github.com/ephz3nt/ginEssential/controller"
 	"github.com/gin-gonic/gin"
 )
 
