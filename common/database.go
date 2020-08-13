@@ -7,8 +7,6 @@ import (
 	"github.com/jinzhu/gorm"
 )
 
-var DB *gorm.DB
-
 func InitDB() *gorm.DB {
 	driverName := "mysql"
 	host := "localhost"
@@ -23,10 +21,9 @@ func InitDB() *gorm.DB {
 		panic("failed to connect database, err: " + err.Error())
 	}
 	db.AutoMigrate(&model.User{})
-	DB = db
 	return db
 }
 
 func GetDB() *gorm.DB {
-	return DB
+	return InitDB()
 }
